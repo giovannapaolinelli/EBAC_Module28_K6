@@ -2,5 +2,23 @@
     "usuarioOk": {
         "user": "admin",
         "pass": "admin"
+    },
+    "produto": {
+        "description": "camiseta",
+        "itemPrice": 0,
+        "name": "camiseta"
+    },
+    "customer": {
+        "email": "teste@teste.com",
+        "firstName": "teste",
+        "lastName": "teste",
+        "phone": "123456789"
+    },
+    "address":{
+        "address_1": "rua das flores",
+        "address_2": "55",
+        "city": "Rio de Janeiro",
+        "state": "RJ",
+        "zip": 0
     }
 }

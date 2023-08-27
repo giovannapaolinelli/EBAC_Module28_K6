@@ -16,8 +16,8 @@ export default class login {
              headers:{
                 "Content-Type": "application/json", 
                 "Accept": "application/json"
-             }   
-        })
+             }}
+        ) 
         this.#token = response.json('accessToken')
         check(response, {
             "is status 201": (r) => r.status === 201

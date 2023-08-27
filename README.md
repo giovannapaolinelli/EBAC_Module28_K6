@@ -1,59 +1,28 @@
-# Getting started with your app
+# Getting started with your the tests
 
 ## Available Scripts
 
-In the project directory you can run:
+In the server directory you can run:
+
+### `npm run docker:db`
+
+Install the docker-compose file
+
+### `npm run db:init`
+
+Initializes the docker
 
 ### `npm start`
 
-Runs the app in the development mode.
-By default, it is accessible at http://localhost:3000
+Starts the application
+
+```
+In the project directory you can run:
 
 ### `npm test`
 
-Launches the test runner.
+to run the test
 
-### `npm run build`
+### `npm webpack`
 
-Builds the app for production to the `dist` folder.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-## Development
-
-Make sure you have Node.js 14, npm, and Docker installed.
-
-- Instal Yarn
-```
-npm install -g yarn
-```
-
-- Install dependencies
-
-```
-yarn install
-```
-
-- Generate Prisma client
-
-```
-npm run prisma:generate
-```
-
-- Start database in Docker
-
-```
-```
-
-- Initiate the database
-
-```
-npm run db:init
-```
-
-- Start the server
-
-```
-yarn start
-```
+Creates de webpack file

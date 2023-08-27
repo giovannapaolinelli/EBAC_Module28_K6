@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "webpack",
-    "test": "k6 run dist/user.test.js"
+    "test": "k6 run dist/customer.test.js"
   },
   "author": "giovannapaolinelli",
   "license": "ISC",
